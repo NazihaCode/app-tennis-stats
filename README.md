@@ -1,5 +1,4 @@
-Tennis-stats
-C'est une Spring Boot REST API Application permettant de retourner les statistiques des joueurs de tennis.
+Tennis-stats est une Spring Boot REST API Application permettant de retourner les statistiques des joueurs de tennis.
 Les données ont été récupérés depuis le fichier headtohead.json
 
 1- Récupérer les sources
@@ -24,5 +23,5 @@ retourne l'IMC moyen de tous les joueurs.
 GET	/median 
 retourne La médiane de la taille des joueurs.
 
-4- Déploiement
+3- Déploiement
 L'application a été déployé sur Heroku et elle est accèssible via https://app-tennis-stats.herokuapp.com/tennis-stats/api/
