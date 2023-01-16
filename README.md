@@ -2,7 +2,8 @@ Tennis-stats est une Spring Boot REST API Application permettant de retourner le
 Les données ont été récupérés depuis le fichier headtohead.json
 
 1- Récupérer les sources
-git@github.com:NazihaCode/app-tennis-stats.git
+
+ $ git clone git@github.com:NazihaCode/app-tennis-stats.git
 
 2- Builder et Lancer l'application
 
