@@ -9,18 +9,20 @@ git@github.com:NazihaCode/app-tennis-stats.git
 
 le serveur se lance à l'url http://localhost:8080/tennis-stats/api.
 
-3- L'Api
-
 GET	/players	
-retourne les joueurs triée du meilleur au moins bon
+retourne les joueurs triée du meilleur au moins bon.
+
 GET	/player/{id}
-retourne les informations d’un joueur grâce à son ID
+retourne les informations d’un joueur grâce à son ID.
+
 GET	/countryByTheBestRatio
-retourne le pays qui a le plus grand ratio de parties gagnées
+retourne le pays qui a le plus grand ratio de parties gagnées.
+
 GET	/imcAverage
-retourne l'IMC moyen de tous les joueurs
+retourne l'IMC moyen de tous les joueurs.
+
 GET	/median 
-retourne La médiane de la taille des joueurs
+retourne La médiane de la taille des joueurs.
 
 4- Déploiement
 L'application a été déployé sur Heroku et elle est accèssible via https://app-tennis-stats.herokuapp.com/tennis-stats/api/
